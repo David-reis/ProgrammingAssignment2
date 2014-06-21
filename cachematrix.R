@@ -1,6 +1,6 @@
 
 ## This R file is used to speed up matrix inversion by caching the
-## inverse of a matrixonce it has been calculated becuase matrix 
+## inverse of a matrix once it has been calculated becuase matrix 
 ## inversioncan be a costly computation.
 ##-----------------------------------------------------------------------------------
 ## Example usage
@@ -60,5 +60,4 @@ cacheSolve <- function(x, ...) {
     message("calculating inverse")
     inv
 }
-
 
